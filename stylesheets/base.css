@@ -1,0 +1,302 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* Table of Content
+==================================================
+	#Reset & Basics
+	#Basic Styles
+	#Site Styles
+	#Typography
+	#Links
+	#Lists
+	#Images
+	#Buttons
+	#Forms
+	#Misc */
+
+	
+	
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+
+
+/* #Basic Styles
+================================================== */
+	body {
+		background: #fff;
+		font-family: 'Open Sans', sans-serif;
+		color: #444;
+		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-text-size-adjust: 100%;
+	}
+	
+
+
+/* #Typography
+================================================== */
+	h1, h2, h3, h4, h5, h6 {
+		color: #181818;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: normal; }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 36px; line-height: 50px; margin-bottom: 14px;}
+	h2 { font-size: 30px; line-height: 40px; margin-bottom: 10px; }
+	h3 { font-size: 22px; line-height: 34px; margin-bottom: 8px; }
+	h4 { font-size: 16px; line-height: 30px; margin-bottom: 4px; }
+	h5 { font-size: 14px; line-height: 24px; }
+	h6 { font-size: 12px; line-height: 21px; }
+	.subheader { color: #777; } 
+
+	p { 
+	font-size: 20px;
+    	font-family: 'Open Sans';
+    	font-style: normal;
+    	margin: 0;
+    	padding: 0;
+    	line-height: 1.44;
+	 }
+	p img { margin: 0; }
+	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+	em { font-style: italic; }
+	strong { font-weight: bold; color: #333; }
+	small { font-size: 80%; }
+
+/*	Blockquotes  */
+	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+	blockquote cite { display: block; font-size: 12px; color: #555; }
+	blockquote cite:before { content: "\2014 \0020"; }
+	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+
+	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+
+
+/* #Links
+================================================== */
+	a, a:visited { color: #333; text-decoration: underline; outline: 0; }
+	a:hover, a:focus { color: #000; }
+	p a, p a:visited { line-height: inherit; }
+
+
+/* #Lists
+================================================== */
+	ul {
+	margin: 0;
+	padding: 10px;
+	}
+
+	ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 230px;
+	}
+
+	ul li img {
+	display: block;
+	width: 100%;
+	height: auto;
+	}
+
+/* #Images
+================================================== */
+
+img {
+    margin-bottom: 2px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* #Misc
+================================================== */
+	.remove-bottom { margin-bottom: 0 !important; }
+	.half-bottom { margin-bottom: 10px !important; }
+	.add-bottom { margin-bottom: 20px !important; }
+	
+#color1{
+    background: #1abc9c; float: left; padding-left: 20%; padding-right: 50px; margin-bottom: 40px; margin-top: 40px; padding-bottom: 10px; padding-top: 10px;
+	
+	-moz-border-radius: 5px;    /* Firefox 3.6-, removed in Firefox 13 */
+	-webkit-border-radius: 5px; /* Safari 4-, Chrome 3- */
+	border-radius: 5px;     /* Firefox 4+, Safari 5+, Chrome 4+, Opera 10.5+, IE9+ */
+}
+#color1 h1{
+    color: #fff;
+}
+#color2{
+	background: #1abc9c; float: right; padding-right: 20%; padding-left: 50px;padding-bottom: 10px;padding-top: 10px;margin-top: 40px;margin-bottom: 40px;
+	
+	-moz-border-radius: 5px;    /* Firefox 3.6-, removed in Firefox 13 */
+	-webkit-border-radius: 5px; /* Safari 4-, Chrome 3- */
+	border-radius: 5px;     /* Firefox 4+, Safari 5+, Chrome 4+, Opera 10.5+, IE9+ */
+}
+#color2 h1{
+    color: #fff;
+}
+
+#top, #bottom, #left, #right {
+	background: #1abc9c;
+	position: fixed;
+	z-index: 1;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 20px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+@media only screen and (max-width: 1050px) {
+	#top, #bottom, #left, #right {
+	background: #1abc9c;
+	position: fixed;
+	z-index: 1;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 7px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 7px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+}
+@media only screen and (max-width: 500px) {
+	#top, #bottom, #left, #right {
+	display: none;
+	}
+
+}
+
+/* Used  http://css3pie.com/demos/gradient-patterns/ for the background lines*/
+
+#colorBack1{
+z-index: 2;	
+background-size: 8px 8px;
+background-color: #1abc9c;
+background-image: -webkit-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -moz-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+-pie-background: linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent) 0 0 / 50px #0ae;
+behavior: url(/pie/PIE.htc);
+}
+
+.cover {
+    color: #fff;
+    z-index: 5;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.linkbutton {
+	text-align: center;
+	padding-top: 25px;
+}
+
+.linkbutton li{
+	color:#fafafa;
+	border: 2px solid #ffffff; 
+	text-decoration: none;
+	display:inline;
+	background-color: #16a085;
+}
+
+.linkbutton a{
+	color:#fafafa;
+	text-align: center;
+	display:inline;
+	text-decoration: none;
+	display:inline;
+	margin: 15px;
+}
+
+.linkbutton a:hover{
+	
+}
+
+#mc_embed_signup{
+	background:#fff;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	color: #444; }
+
+/* Used  http://codepen.io/CreativeJuiz/pen/fxEjq for the hidden footer looking thing*/
+
+#workBox{
+	background: #fff;
+	padding: 25px 25px 25px 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.footer {
+  position: fixed;
+  vertical-align: middle;
+  z-index: 0;
+  bottom: 0; right: 0; left: 0;
+  height: 350px;
+  padding: 50px 25px;
+  background: #1abc9c;
+  color: #F7F7F7;
+  text-align: center;
+}
+
+.section {
+  position: relative;
+  background: #F7F7F7;
+  z-index: 5;
+  margin-bottom: 450px;
+  box-shadow: 0 0 12px rgba(0,0,0,.25);
+}
